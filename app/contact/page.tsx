@@ -299,7 +299,7 @@ export default function ContactPage() {
                         placeholder={t("contact.form.namePlaceholder")}
                         className={`w-full px-4 py-3 rounded-xl bg-white/[0.04] border text-white text-sm placeholder:text-white/20 focus:outline-none focus:ring-2 transition-all duration-200 ${
                           errors.name && touched.name
-                            ? "border-red-500/50 focus:ring-red-500/20 focus:border-red-500/50"
+                            ? "border-cyan-500/50 focus:ring-cyan-500/20 focus:border-cyan-500/50"
                             : "border-white/[0.08] focus:ring-[#e94560]/20 focus:border-[#e94560]/40"
                         }`}
                       />
@@ -308,7 +308,7 @@ export default function ContactPage() {
                       <motion.p
                         initial={{ opacity: 0, y: -4 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="text-xs text-red-400 flex items-center gap-1"
+                        className="text-xs text-cyan-400 flex items-center gap-1"
                       >
                         <AlertCircle size={11} />
                         {errors.name}
@@ -332,7 +332,7 @@ export default function ContactPage() {
                       placeholder={t("contact.form.emailPlaceholder")}
                       className={`w-full px-4 py-3 rounded-xl bg-white/[0.04] border text-white text-sm placeholder:text-white/20 focus:outline-none focus:ring-2 transition-all duration-200 ${
                         errors.email && touched.email
-                          ? "border-red-500/50 focus:ring-red-500/20 focus:border-red-500/50"
+                          ? "border-cyan-500/50 focus:ring-cyan-500/20 focus:border-cyan-500/50"
                           : "border-white/[0.08] focus:ring-[#e94560]/20 focus:border-[#e94560]/40"
                       }`}
                     />
@@ -340,7 +340,7 @@ export default function ContactPage() {
                       <motion.p
                         initial={{ opacity: 0, y: -4 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="text-xs text-red-400 flex items-center gap-1"
+                        className="text-xs text-cyan-400 flex items-center gap-1"
                       >
                         <AlertCircle size={11} />
                         {errors.email}
@@ -365,7 +365,7 @@ export default function ContactPage() {
                     placeholder={t("contact.form.subjectPlaceholder")}
                     className={`w-full px-4 py-3 rounded-xl bg-white/[0.04] border text-white text-sm placeholder:text-white/20 focus:outline-none focus:ring-2 transition-all duration-200 ${
                       errors.subject && touched.subject
-                        ? "border-red-500/50 focus:ring-red-500/20 focus:border-red-500/50"
+                        ? "border-cyan-500/50 focus:ring-cyan-500/20 focus:border-cyan-500/50"
                         : "border-white/[0.08] focus:ring-[#e94560]/20 focus:border-[#e94560]/40"
                     }`}
                   />
@@ -373,7 +373,7 @@ export default function ContactPage() {
                     <motion.p
                       initial={{ opacity: 0, y: -4 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="text-xs text-red-400 flex items-center gap-1"
+                      className="text-xs text-cyan-400 flex items-center gap-1"
                     >
                       <AlertCircle size={11} />
                       {errors.subject}
@@ -397,7 +397,7 @@ export default function ContactPage() {
                     placeholder={t("contact.form.messagePlaceholder")}
                     className={`w-full px-4 py-3 rounded-xl bg-white/[0.04] border text-white text-sm placeholder:text-white/20 focus:outline-none focus:ring-2 transition-all duration-200 resize-none ${
                       errors.message && touched.message
-                        ? "border-red-500/50 focus:ring-red-500/20 focus:border-red-500/50"
+                        ? "border-cyan-500/50 focus:ring-cyan-500/20 focus:border-cyan-500/50"
                         : "border-white/[0.08] focus:ring-[#e94560]/20 focus:border-[#e94560]/40"
                     }`}
                   />
@@ -406,7 +406,7 @@ export default function ContactPage() {
                       <motion.p
                         initial={{ opacity: 0, y: -4 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="text-xs text-red-400 flex items-center gap-1"
+                        className="text-xs text-cyan-400 flex items-center gap-1"
                       >
                         <AlertCircle size={11} />
                         {errors.message}
@@ -455,7 +455,7 @@ export default function ContactPage() {
           className={`fixed bottom-8 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 px-5 py-3.5 rounded-xl border shadow-[0_8px_32px_rgba(0,0,0,0.4)] backdrop-blur-xl ${
             toast.type === "success"
               ? "bg-sky-500/10 border-sky-500/20 text-sky-400"
-              : "bg-red-500/10 border-red-500/20 text-red-400"
+              : "bg-cyan-500/10 border-cyan-500/20 text-cyan-400"
           }`}
         >
           {toast.type === "success" ? (
