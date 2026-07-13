@@ -47,7 +47,7 @@ const masonryTestimonials = [
     stars: 5,
     tag: "Manual Testing",
     initials: "PS",
-    color: "bg-sky-500",
+    color: "bg-yellow-500",
   },
   {
     quote:
@@ -69,7 +69,7 @@ const masonryTestimonials = [
     stars: 5,
     tag: "Performance",
     initials: "LC",
-    color: "bg-sky-500",
+    color: "bg-yellow-500",
   },
   {
     quote:

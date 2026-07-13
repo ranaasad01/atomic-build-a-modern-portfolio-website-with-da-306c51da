@@ -81,9 +81,9 @@ const skillCategories = [
   {
     category: "API Testing",
     categoryKey: "about.skills.api",
-    color: "from-sky-500/20 to-sky-500/5",
-    border: "border-sky-500/30",
-    accent: "text-sky-400",
+    color: "from-yellow-500/20 to-yellow-500/5",
+    border: "border-yellow-500/30",
+    accent: "text-yellow-400",
     skills: [
       "Postman",
       "REST Assured",
@@ -96,9 +96,9 @@ const skillCategories = [
   {
     category: "CI/CD & DevOps",
     categoryKey: "about.skills.cicd",
-    color: "from-sky-500/20 to-sky-500/5",
-    border: "border-sky-500/30",
-    accent: "text-sky-400",
+    color: "from-yellow-500/20 to-yellow-500/5",
+    border: "border-yellow-500/30",
+    accent: "text-yellow-400",
     skills: [
       "Jenkins",
       "GitHub Actions",

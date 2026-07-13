@@ -129,7 +129,7 @@ type FilterCategory = "All" | "Automation" | "Manual" | "Web";
 const FILTERS: FilterCategory[] = ["All", "Automation", "Manual", "Web"];
 
 const STATUS_COLORS: Record<Project["status"], string> = {
-  Completed: "bg-sky-500/15 text-sky-400 border-sky-500/20",
+  Completed: "bg-yellow-500/15 text-yellow-400 border-yellow-500/20",
   "In Progress": "bg-amber-500/15 text-amber-400 border-amber-500/20",
   Maintained: "bg-blue-500/15 text-blue-400 border-blue-500/20",
 };
@@ -137,7 +137,7 @@ const STATUS_COLORS: Record<Project["status"], string> = {
 const CATEGORY_COLORS: Record<Project["category"], string> = {
   Automation: "bg-[#e94560]/15 text-[#e94560] border-[#e94560]/20",
   Manual: "bg-purple-500/15 text-purple-400 border-purple-500/20",
-  Web: "bg-cyan-500/15 text-cyan-400 border-cyan-500/20",
+  Web: "bg-yellow-500/15 text-yellow-400 border-yellow-500/20",
 };
 
 export default function ProjectsPage() {

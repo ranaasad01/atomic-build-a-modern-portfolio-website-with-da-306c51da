@@ -41,7 +41,7 @@ const services = [
   },
   {
     icon: Shield,
-    color: "bg-sky-500/10 text-sky-400",
+    color: "bg-yellow-500/10 text-yellow-400",
     name: "API & Integration Testing",
     description:
       "End-to-end API validation ensuring your backend contracts are reliable and secure.",
@@ -67,7 +67,7 @@ const services = [
   },
   {
     icon: FileText,
-    color: "bg-sky-500/10 text-sky-400",
+    color: "bg-yellow-500/10 text-yellow-400",
     name: "QA Documentation",
     description:
       "Professional test documentation that gives stakeholders full visibility into quality.",

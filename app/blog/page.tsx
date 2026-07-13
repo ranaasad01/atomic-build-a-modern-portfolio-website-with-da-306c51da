@@ -99,8 +99,8 @@ const CATEGORY_STYLES: Record<string, { badge: string; dot: string }> = {
     dot: "bg-[#e94560]",
   },
   "API Testing": {
-    badge: "bg-sky-500/10 text-sky-400 border border-sky-500/20",
-    dot: "bg-sky-400",
+    badge: "bg-yellow-500/10 text-yellow-400 border border-yellow-500/20",
+    dot: "bg-yellow-400",
   },
   "Manual Testing": {
     badge: "bg-amber-500/10 text-amber-400 border border-amber-500/20",
@@ -111,8 +111,8 @@ const CATEGORY_STYLES: Record<string, { badge: string; dot: string }> = {
     dot: "bg-violet-400",
   },
   Career: {
-    badge: "bg-sky-500/10 text-sky-400 border border-sky-500/20",
-    dot: "bg-sky-400",
+    badge: "bg-yellow-500/10 text-yellow-400 border border-yellow-500/20",
+    dot: "bg-yellow-400",
   },
 };
 
