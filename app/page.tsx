@@ -287,7 +287,16 @@ export default function HomePage() {
             <motion.span variants={fadeInUp} className="inline-block text-[#e94560] text-xs font-semibold tracking-widest uppercase mb-4">
               {t("services.eyebrow")}
             </motion.span>
-            <motion.h2 variants={fadeInUp} className="text-4xl md:text-5xl font-bold font-[var(--font-space-grotesk)] tracking-tight text-balance mb-4">Services you want</motion.h2>
+            <motion.h2
+              variants={fadeInUp}
+              className="text-4xl md:text-5xl font-bold font-[var(--font-space-grotesk)] tracking-tight text-balance mb-4"
+              style={{
+                color: "#06b6d4",
+                backgroundColor: "#ef4444",
+                fontSize: "48px",
+                padding: "64px",
+                margin: "48px"
+              }}>Services you want</motion.h2>
             <motion.p variants={fadeInUp} className="text-white/50 text-lg max-w-2xl mx-auto text-pretty">
               {t("services.subtitle")}
             </motion.p>
