@@ -41,7 +41,7 @@ const services = [
   },
   {
     icon: Shield,
-    color: "bg-emerald-500/10 text-emerald-400",
+    color: "bg-sky-500/10 text-sky-400",
     name: "API & Integration Testing",
     description:
       "End-to-end API validation ensuring your backend contracts are reliable and secure.",

@@ -199,8 +199,8 @@ export default function ContactPage() {
               className="flex items-center gap-3 p-4 rounded-xl bg-white/[0.03] border border-white/[0.07]"
             >
               <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500" />
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75" />
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500" />
               </span>
               <div>
                 <p className="text-sm font-medium text-white/80">{t("contact.availability.status")}</p>
@@ -454,7 +454,7 @@ export default function ContactPage() {
           exit={{ opacity: 0, y: 20, scale: 0.95 }}
           className={`fixed bottom-8 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 px-5 py-3.5 rounded-xl border shadow-[0_8px_32px_rgba(0,0,0,0.4)] backdrop-blur-xl ${
             toast.type === "success"
-              ? "bg-emerald-500/10 border-emerald-500/20 text-emerald-400"
+              ? "bg-sky-500/10 border-sky-500/20 text-sky-400"
               : "bg-red-500/10 border-red-500/20 text-red-400"
           }`}
         >

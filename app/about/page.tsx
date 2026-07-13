@@ -81,9 +81,9 @@ const skillCategories = [
   {
     category: "API Testing",
     categoryKey: "about.skills.api",
-    color: "from-emerald-500/20 to-emerald-500/5",
-    border: "border-emerald-500/30",
-    accent: "text-emerald-400",
+    color: "from-sky-500/20 to-sky-500/5",
+    border: "border-sky-500/30",
+    accent: "text-sky-400",
     skills: [
       "Postman",
       "REST Assured",
