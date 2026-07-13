@@ -295,7 +295,8 @@ export default function HomePage() {
                 backgroundColor: "#ef4444",
                 fontSize: "48px",
                 padding: "64px",
-                margin: "48px"
+                margin: "48px",
+                borderRadius: "50%"
               }}>Services you want</motion.h2>
             <motion.p variants={fadeInUp} className="text-white/50 text-lg max-w-2xl mx-auto text-pretty">
               {t("services.subtitle")}
