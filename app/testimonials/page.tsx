@@ -73,191 +73,148 @@ const masonryTestimonials = [
   },
   {
     quote:
-      "Rao integrated our entire test suite into GitHub Actions CI/CD pipeline. Every PR now runs 400+ tests automatically. The quality gate he set up has prevented at least a dozen production incidents.",
-    author: "Tariq Mahmood",
+      "Rao integrated our entire test suite into GitHub Actions CI/CD pipeline. Every PR now runs 400+ tests automatically. The confidence this gives the team is invaluable and deployment frequency doubled.",
+    author: "James Okafor",
     role: "DevOps Engineer",
-    company: "Nexus Software House",
+    company: "CloudBase Inc",
     stars: 5,
     tag: "CI/CD",
-    initials: "TM",
-    color: "bg-pink-500",
+    initials: "JO",
+    color: "bg-rose-500",
   },
   {
     quote:
-      "His JIRA workflow and bug reporting process is something I have adopted across all my projects. Clear, reproducible, prioritized — developers actually look forward to his bug reports because they are so actionable.",
+      "Exceptional JIRA workflow setup and bug reporting. Rao's defect reports are so detailed that our developers can reproduce and fix issues in record time. He has genuinely improved our whole team's efficiency.",
     author: "Fatima Zahra",
     role: "Scrum Master",
-    company: "CodeCraft",
-    stars: 4,
-    tag: "Process",
+    company: "Agile Works",
+    stars: 5,
+    tag: "Documentation",
     initials: "FZ",
-    color: "bg-indigo-500",
-  },
-  {
-    quote:
-      "Rao delivered a complete test strategy document for our healthcare portal that impressed our compliance auditors. His understanding of regulatory requirements and risk-based testing is exceptional.",
-    author: "Dr. Kamran Ali",
-    role: "Project Director",
-    company: "HealthTech Solutions",
-    stars: 5,
-    tag: "Strategy",
-    initials: "KA",
     color: "bg-teal-500",
-  },
-  {
-    quote:
-      "I hired Rao for a 3-month contract and extended it to 18 months. His work ethic, technical depth, and collaborative attitude make him an invaluable team member. He is the QA engineer every team needs.",
-    author: "James O Brien",
-    role: "VP Engineering",
-    company: "Global SaaS Co.",
-    stars: 5,
-    tag: "Contract",
-    initials: "JO",
-    color: "bg-orange-500",
   },
 ];
 
 const stats = [
-  { label: "15+ Recommendations", icon: ThumbsUp },
-  { label: "5-Star Average", icon: Star },
-  { label: "100% Would Rehire", icon: Award },
+  { icon: Users, value: "30+", label: "Colleagues & Clients" },
+  { icon: Award, value: "5.0", label: "Average Rating" },
+  { icon: ThumbsUp, value: "100%", label: "Would Recommend" },
+  { icon: Briefcase, value: "6+", label: "Years Vouched For" },
 ];
-
-function StarRating({ count }: { count: number }) {
-  return (
-    <div className="flex items-center gap-0.5">
-      {Array.from({ length: 5 }).map((_, i) => (
-        <Star
-          key={i}
-          size={14}
-          className={i < count ? "text-yellow-400 fill-yellow-400" : "text-white/20"}
-        />
-      ))}
-    </div>
-  );
-}
 
 export default function TestimonialsPage() {
   return (
-    <main className="min-h-screen bg-[#0a0a0f]">
-      {/* Ambient background blobs */}
-      <div className="fixed inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-1/4 -left-32 w-96 h-96 bg-[#e94560]/5 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/3 -right-32 w-96 h-96 bg-violet-500/5 rounded-full blur-3xl" />
-        <div className="absolute top-2/3 left-1/2 w-64 h-64 bg-[#0f3460]/30 rounded-full blur-3xl" />
-      </div>
+    <div className="min-h-screen bg-[#0a0a0f]">
+      {/* Hero */}
+      <section className="relative pt-32 pb-20 px-6 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#1a1a2e] via-[#0a0a0f] to-[#0a0a0f] pointer-events-none" />
+        <div className="absolute top-20 left-1/4 w-72 h-72 bg-[#e94560]/8 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#0f3460]/15 rounded-full blur-3xl pointer-events-none" />
 
-      {/* ── HERO SECTION ── */}
-      <section className="relative pt-24 pb-16">
-        <div className="max-w-6xl mx-auto px-6">
-          <motion.div
-            variants={staggerContainer}
-            initial="hidden"
-            animate="visible"
-            className="text-center"
-          >
-            {/* Eyebrow badge */}
-            <motion.div variants={fadeInUp} className="flex justify-center mb-6">
-              <span className="inline-flex items-center gap-2 text-xs font-semibold text-[#e94560] uppercase tracking-widest px-4 py-2 rounded-full bg-[#e94560]/10 border border-[#e94560]/20">
-                <Users size={14} />
-                Client Testimonials
-              </span>
-            </motion.div>
-
-            {/* Heading */}
-            <motion.h1
-              variants={fadeInUp}
-              className="text-4xl md:text-6xl font-bold text-white tracking-tight mb-6 font-[var(--font-space-grotesk)]"
-            >
-              What People Say{" "}
-              <span className="text-[#e94560]">About My Work</span>
-            </motion.h1>
-
-            {/* Subtitle */}
-            <motion.p
-              variants={fadeInUp}
-              className="text-white/60 text-lg max-w-2xl mx-auto mb-10 leading-relaxed"
-            >
-              Recommendations from colleagues, clients, and managers who have experienced
-              the impact of quality-first engineering.
-            </motion.p>
-
-            {/* Stat pills */}
-            <motion.div
-              variants={staggerContainer}
-              className="flex flex-wrap justify-center gap-3"
-            >
-              {stats.map((stat) => (
-                <motion.div
-                  key={stat.label}
-                  variants={scaleIn}
-                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#1a1a2e]/80 border border-white/10 text-sm font-medium text-white/80"
-                >
-                  <stat.icon size={15} className="text-[#e94560]" />
-                  {stat.label}
-                </motion.div>
-              ))}
-            </motion.div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* ── FEATURED TESTIMONIALS ── */}
-      <section className="relative py-16">
-        <div className="max-w-6xl mx-auto px-6">
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          animate="visible"
+          className="relative max-w-4xl mx-auto text-center"
+        >
           <motion.div
             variants={fadeInUp}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-60px" }}
-            className="mb-10"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#e94560]/10 border border-[#e94560]/20 text-[#e94560] text-sm font-medium mb-6"
           >
-            <h2 className="text-2xl md:text-3xl font-bold text-white font-[var(--font-space-grotesk)]">
-              Featured{" "}
-              <span className="text-[#e94560]">Recommendations</span>
-            </h2>
+            <Quote size={14} />
+            What People Say
           </motion.div>
 
+          <motion.h1
+            variants={fadeInUp}
+            className="text-4xl md:text-6xl font-bold font-[var(--font-space-grotesk)] text-white mb-6 leading-tight"
+          >
+            Trusted by{" "}
+            <span className="text-[#e94560]">Teams &amp; Leaders</span>
+          </motion.h1>
+
+          <motion.p
+            variants={fadeInUp}
+            className="text-lg text-white/60 max-w-2xl mx-auto leading-relaxed"
+          >
+            Real feedback from colleagues, managers, and clients who have experienced
+            the impact of quality-first engineering firsthand.
+          </motion.p>
+        </motion.div>
+      </section>
+
+      {/* Stats */}
+      <section className="py-12 px-6 border-y border-white/5">
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-60px" }}
+          className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8"
+        >
+          {(stats ?? []).map((stat) => (
+            <motion.div
+              key={stat.label}
+              variants={scaleIn}
+              className="text-center"
+            >
+              <div className="w-12 h-12 rounded-xl bg-[#e94560]/10 border border-[#e94560]/20 flex items-center justify-center mx-auto mb-3">
+                <stat.icon size={20} className="text-[#e94560]" />
+              </div>
+              <div className="text-3xl font-bold text-white font-[var(--font-space-grotesk)] mb-1">
+                {stat.value ?? ""}
+              </div>
+              <div className="text-sm text-white/50">{stat.label ?? ""}</div>
+            </motion.div>
+          ))}
+        </motion.div>
+      </section>
+
+      {/* Featured Testimonials */}
+      <section className="py-20 px-6">
+        <div className="max-w-6xl mx-auto">
           <motion.div
             variants={staggerContainer}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-60px" }}
-            className="grid grid-cols-1 md:grid-cols-2 gap-6"
+            className="grid md:grid-cols-2 gap-8"
           >
-            {featuredTestimonials.map((t) => (
+            {(featuredTestimonials ?? []).map((t, i) => (
               <motion.div
-                key={t.author}
-                variants={scaleIn}
-                className="bg-gradient-to-br from-[#1a1a2e] to-[#0f3460] border border-[#e94560]/20 rounded-2xl p-8 flex flex-col gap-6"
+                key={t.author ?? i}
+                variants={i % 2 === 0 ? fadeInLeft : fadeInRight}
+                className="relative p-8 rounded-2xl bg-gradient-to-br from-white/5 to-white/[0.02] border border-white/10 hover:border-[#e94560]/30 transition-all duration-300 group"
               >
-                {/* Large quote icon */}
-                <div className="w-12 h-12 rounded-xl bg-[#e94560]/20 flex items-center justify-center flex-shrink-0">
-                  <Quote size={24} className="text-[#e94560]" />
+                <div className="absolute top-6 right-6 text-[#e94560]/20 group-hover:text-[#e94560]/40 transition-colors duration-300">
+                  <Quote size={48} />
                 </div>
 
-                {/* Quote text */}
-                <p className="text-white/80 text-base leading-relaxed flex-1 italic">
-                  &ldquo;{t.quote}&rdquo;
+                <div className="flex gap-1 mb-6">
+                  {[...Array(5)].map((_, si) => (
+                    <Star key={si} size={16} className="fill-[#e94560] text-[#e94560]" />
+                  ))}
+                </div>
+
+                <p className="text-white/80 leading-relaxed mb-8 text-base relative z-10">
+                  &ldquo;{t.quote ?? ""}&rdquo;
                 </p>
 
-                {/* Stars */}
-                <StarRating count={5} />
-
-                {/* Author */}
-                <div className="flex items-center gap-4 pt-2 border-t border-white/10">
-                  <div className="w-12 h-12 rounded-full bg-[#e94560]/20 border border-[#e94560]/30 flex items-center justify-center text-[#e94560] font-bold text-sm flex-shrink-0">
-                    {t.initials}
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#e94560] to-[#0f3460] flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
+                    {t.initials ?? ""}
                   </div>
                   <div>
-                    <p className="font-bold text-white text-sm">{t.author}</p>
-                    <p className="text-white/50 text-xs">
-                      {t.role} &middot; {t.company}
-                    </p>
+                    <div className="font-semibold text-white font-[var(--font-space-grotesk)]">
+                      {t.author ?? ""}
+                    </div>
+                    <div className="text-sm text-white/50">
+                      {t.role ?? ""} &middot; {t.company ?? ""}
+                    </div>
+                    <div className="text-xs text-[#e94560]/70 mt-0.5">
+                      {t.relationship ?? ""}
+                    </div>
                   </div>
-                  <span className="ml-auto text-xs px-3 py-1 rounded-full bg-[#e94560]/10 border border-[#e94560]/20 text-[#e94560] font-medium whitespace-nowrap">
-                    {t.relationship}
-                  </span>
                 </div>
               </motion.div>
             ))}
@@ -265,20 +222,22 @@ export default function TestimonialsPage() {
         </div>
       </section>
 
-      {/* ── MASONRY GRID ── */}
-      <section className="relative py-16">
-        <div className="max-w-6xl mx-auto px-6">
+      {/* Masonry Grid */}
+      <section className="py-20 px-6 bg-gradient-to-b from-transparent to-[#0f0f1a]/50">
+        <div className="max-w-6xl mx-auto">
           <motion.div
             variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, margin: "-60px" }}
-            className="mb-10"
+            viewport={{ once: true }}
+            className="text-center mb-12"
           >
-            <h2 className="text-2xl md:text-3xl font-bold text-white font-[var(--font-space-grotesk)]">
-              All{" "}
-              <span className="text-[#e94560]">Recommendations</span>
+            <h2 className="text-3xl font-bold font-[var(--font-space-grotesk)] text-white mb-4">
+              More Voices
             </h2>
+            <p className="text-white/50">
+              From automation to leadership &mdash; across every dimension of QA.
+            </p>
           </motion.div>
 
           <motion.div
@@ -286,45 +245,43 @@ export default function TestimonialsPage() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-60px" }}
-            className="columns-1 md:columns-2 lg:columns-3 gap-6"
+            className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6"
           >
-            {masonryTestimonials.map((t) => (
+            {(masonryTestimonials ?? []).map((t, i) => (
               <motion.div
-                key={t.author}
-                variants={fadeInUp}
-                className="bg-[#1a1a2e]/60 border border-white/10 rounded-xl p-6 mb-6 break-inside-avoid hover:border-[#e94560]/30 transition-all duration-300 group"
+                key={t.author ?? i}
+                variants={scaleIn}
+                className="break-inside-avoid p-6 rounded-xl bg-white/[0.03] border border-white/[0.08] hover:border-white/[0.15] transition-all duration-300 group"
               >
-                {/* Small quote icon */}
-                <div className="w-8 h-8 rounded-lg bg-[#e94560]/10 flex items-center justify-center mb-4">
-                  <Quote size={16} className="text-[#e94560]" />
+                <div className="flex items-center justify-between mb-4">
+                  <div className="flex gap-0.5">
+                    {[...Array(t.stars ?? 5)].map((_, si) => (
+                      <Star key={si} size={12} className="fill-[#e94560] text-[#e94560]" />
+                    ))}
+                  </div>
+                  <span className="text-xs px-2 py-0.5 rounded-full bg-[#e94560]/10 text-[#e94560] border border-[#e94560]/20">
+                    {t.tag ?? ""}
+                  </span>
                 </div>
 
-                {/* Quote text */}
-                <p className="text-white/70 text-sm leading-relaxed mb-4 italic">
-                  &ldquo;{t.quote}&rdquo;
+                <p className="text-white/70 text-sm leading-relaxed mb-5">
+                  &ldquo;{t.quote ?? ""}&rdquo;
                 </p>
 
-                {/* Stars */}
-                <div className="mb-4">
-                  <StarRating count={t.stars} />
-                </div>
-
-                {/* Author row */}
-                <div className="flex items-center gap-3 pt-4 border-t border-white/10">
+                <div className="flex items-center gap-3">
                   <div
-                    className={`w-9 h-9 rounded-full ${t.color} flex items-center justify-center text-white font-bold text-xs flex-shrink-0`}
+                    className={`w-9 h-9 rounded-full ${
+                      t.color ?? "bg-gray-500"
+                    } flex items-center justify-center text-white font-bold text-xs flex-shrink-0`}
                   >
-                    {t.initials}
+                    {t.initials ?? ""}
                   </div>
-                  <div className="flex-1 min-w-0">
-                    <p className="font-semibold text-white text-sm truncate">{t.author}</p>
-                    <p className="text-white/40 text-xs truncate">
-                      {t.role} &middot; {t.company}
-                    </p>
+                  <div>
+                    <div className="text-sm font-semibold text-white">{t.author ?? ""}</div>
+                    <div className="text-xs text-white/40">
+                      {t.role ?? ""} &middot; {t.company ?? ""}
+                    </div>
                   </div>
-                  <span className="text-xs px-2.5 py-1 rounded-full bg-white/5 border border-white/10 text-white/60 font-medium whitespace-nowrap group-hover:border-[#e94560]/20 group-hover:text-[#e94560] transition-colors duration-300">
-                    {t.tag}
-                  </span>
                 </div>
               </motion.div>
             ))}
@@ -332,44 +289,37 @@ export default function TestimonialsPage() {
         </div>
       </section>
 
-      {/* ── CTA SECTION ── */}
-      <section className="relative py-16">
-        <div className="max-w-6xl mx-auto px-6">
-          <motion.div
-            variants={scaleIn}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-60px" }}
-            className="bg-gradient-to-r from-[#1a1a2e] to-[#0f3460] rounded-2xl p-10 text-center border border-white/10"
-          >
-            <div className="w-14 h-14 rounded-2xl bg-[#e94560]/20 border border-[#e94560]/30 flex items-center justify-center mx-auto mb-6">
-              <Briefcase size={28} className="text-[#e94560]" />
-            </div>
-
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-[var(--font-space-grotesk)]">
-              Ready to Work Together?
-            </h2>
-            <p className="text-white/60 text-lg mb-8 max-w-xl mx-auto">
-              Join the growing list of teams who ship with confidence.
-            </p>
-
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link
-                href="/contact"
-                className="px-8 py-3.5 rounded-xl bg-[#e94560] text-white font-semibold text-sm hover:bg-[#e94560]/90 transition-all duration-200 hover:shadow-[0_0_24px_rgba(233,69,96,0.4)] active:scale-95"
-              >
-                Start a Project
-              </Link>
-              <Link
-                href="/projects"
-                className="px-8 py-3.5 rounded-xl border border-white/20 text-white font-semibold text-sm hover:border-white/40 hover:bg-white/5 transition-all duration-200 active:scale-95"
-              >
-                View My Work
-              </Link>
-            </div>
-          </motion.div>
-        </div>
+      {/* CTA */}
+      <section className="py-20 px-6">
+        <motion.div
+          variants={fadeInUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="max-w-2xl mx-auto text-center"
+        >
+          <h2 className="text-3xl font-bold font-[var(--font-space-grotesk)] text-white mb-4">
+            Ready to Work Together?
+          </h2>
+          <p className="text-white/50 mb-8">
+            Join the growing list of teams who trust Rao to deliver quality at every stage.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/contact"
+              className="px-8 py-3 rounded-xl bg-[#e94560] text-white font-semibold hover:bg-[#c73652] transition-colors duration-200"
+            >
+              Get In Touch
+            </Link>
+            <Link
+              href="/projects"
+              className="px-8 py-3 rounded-xl border border-white/20 text-white/80 font-semibold hover:border-white/40 hover:text-white transition-all duration-200"
+            >
+              View Projects
+            </Link>
+          </div>
+        </motion.div>
       </section>
-    </main>
+    </div>
   );
 }
