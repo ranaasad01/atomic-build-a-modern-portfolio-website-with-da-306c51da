@@ -1,1 +1,185 @@
-{}
+{
+  "brand": {
+    "name": "Rao Muhammad Ali",
+    "shortName": "RMA",
+    "title": "Ingeniero de QA",
+    "tagline": "Incorporando calidad en cada línea de código."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "contact": "Contacto",
+    "hire": "Contratarme",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "footer": {
+    "tagline": "Ingeniero de QA dedicado que garantiza la excelencia del software mediante pruebas rigurosas y prácticas de aseguramiento de calidad.",
+    "navigation": "Navegación",
+    "getInTouch": "Ponte en Contacto",
+    "openTo": "Abierto a oportunidades de trabajo freelance y tiempo completo.",
+    "emailLabel": "Enviar correo",
+    "contactCta": "Iniciar una Conversación",
+    "backToTop": "Volver al inicio",
+    "copyright": "© {year} {name}. Todos los derechos reservados.",
+    "role": "Ingeniero de QA"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Rao Muhammad Ali",
+    "title": "Ingeniero de QA",
+    "subtitle": "Garantizando la excelencia del software mediante pruebas rigurosas, automatización y aseguramiento de calidad.",
+    "cta": {
+      "primary": "Ver Mi Trabajo",
+      "secondary": "Ponte en Contacto"
+    },
+    "ctaSecondary": "Descargar CV",
+    "scrollHint": "Desplázate para explorar",
+    "badge": "Disponible para oportunidades",
+    "statsTests": "Casos de Prueba Escritos",
+    "statsBugs": "Errores Reportados",
+    "statsProjects": "Proyectos Entregados",
+    "statsYears": "Años de Experiencia",
+    "chip1": "Ingeniero de QA",
+    "chip2": "Enfocado en Calidad",
+    "description": "Proporciono soluciones de pruebas integrales y estrategias de aseguramiento de calidad para garantizar que tu software funcione sin problemas.",
+    "imageAlt": "Rao Muhammad Ali",
+    "role": "Ingeniero de QA",
+    "scroll": "Desplázate para explorar"
+  },
+  "about": {
+    "eyebrow": "Acerca de Mí",
+    "heading": "Apasionado por la calidad, impulsado por la precisión.",
+    "bio1": "Soy Rao Muhammad Ali, Ingeniero de QA con una sólida base en pruebas manuales y automatizadas. Me especializo en identificar defectos tempranamente, construir marcos de prueba robustos y garantizar que el software cumpla con los más altos estándares de calidad antes de llegar a los usuarios finales.",
+    "bio2": "Mi enfoque combina el pensamiento analítico con una comprensión profunda del ciclo de vida del desarrollo de software. Trabajo estrechamente con equipos de desarrollo para integrar la garantía de calidad en cada etapa, desde la revisión de requisitos hasta el monitoreo posterior al lanzamiento.",
+    "skillsHeading": "Competencias Principales",
+    "downloadResume": "Descargar CV",
+    "connectLinkedIn": "Conectar en LinkedIn",
+    "bio3": "Me apasiona garantizar la calidad del software mediante pruebas meticulosas y mejora continua.",
+    "bioHeading": "Acerca de Mí",
+    "getInTouch": "Ponte en Contacto",
+    "imageAlt": "Retrato de Rao Muhammad Ali",
+    "quickFactsHeading": "Datos Rápidos",
+    "skillsEyebrow": "Competencias Principales",
+    "skillsSubheading": "Experiencia en garantía de calidad y metodologías de prueba.",
+    "statBugs": "Errores Detectados",
+    "statYears": "Años de Experiencia"
+  },
+  "skills": {
+    "eyebrow": "Habilidades y Herramientas",
+    "heading": "Mi Arsenal Técnico",
+    "subtitle": "Un conjunto seleccionado de herramientas y tecnologías que utilizo para entregar software de calidad.",
+    "testing": "Pruebas",
+    "automation": "Automatización",
+    "tools": "Herramientas",
+    "methodologies": "Metodologías",
+    "description": "Competente en automatización de pruebas, pruebas manuales, integración CI/CD y estrategia de calidad.",
+    "title": "Habilidades Técnicas"
+  },
+  "projects": {
+    "eyebrow": "Proyectos",
+    "heading": {
+      "accent": "Portafolio",
+      "part1": "Mi"
+    },
+    "subtitle": "Una selección de proyectos donde apliqué prácticas rigurosas de QA para entregar software confiable.",
+    "viewProject": "Ver Proyecto",
+    "viewCode": "Ver Código",
+    "allProjects": "Todos los Proyectos",
+    "featured": "Destacados",
+    "clearFilters": "Limpiar Filtros",
+    "emptyDesc": "Ningún proyecto coincide con tus filtros. Intenta ajustar tu selección.",
+    "emptyTitle": "No se encontraron proyectos",
+    "githubLabel": "Ver en GitHub",
+    "liveDemo": "Demo en Vivo",
+    "liveLabel": "En Vivo",
+    "resultCount": "proyectos",
+    "searchPlaceholder": "Buscar proyectos...",
+    "subheading": "Explora mis soluciones de automatización QA, frameworks de testing y aseguramiento de calidad.",
+    "title": "Trabajos Destacados",
+    "viewAll": "Ver Todo"
+  },
+  "experience": {
+    "eyebrow": "Experiencia",
+    "heading": "Mi Trayectoria Profesional",
+    "subtitle": "Una línea de tiempo de roles donde desarrollé experiencia en aseguramiento de calidad de software.",
+    "present": "Presente",
+    "responsibilities": "Responsabilidades Clave",
+    "education": "Educación",
+    "certifications": "Certificaciones",
+    "badge": "Experiencia",
+    "certificationsSubtitle": "Credenciales reconocidas por la industria y aprendizaje continuo.",
+    "educationSubtitle": "Formación académica y capacitación especializada.",
+    "title": "Mi Trayectoria",
+    "titleAccent": "en QA",
+    "workHistory": "Experiencia Profesional",
+    "workHistorySubtitle": "Trayectoria comprobada en aseguramiento de calidad y testing."
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "heading": "Trabajemos Juntos",
+    "subtitle": "¿Tienes un proyecto en mente o buscas un ingeniero QA dedicado? Me encantaría saber de ti.",
+    "nameLabel": "Tu Nombre",
+    "namePlaceholder": "Juan Pérez",
+    "emailLabel": "Correo Electrónico",
+    "emailPlaceholder": "juan@ejemplo.com",
+    "subjectLabel": "Asunto",
+    "subjectPlaceholder": "Consulta de proyecto",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Cuéntame sobre tu proyecto u oportunidad...",
+    "sendButton": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "successTitle": "¡Mensaje Enviado!",
+    "successMessage": "Gracias por comunicarte conmigo. Te responderé dentro de 24 horas.",
+    "errorMessage": "Algo salió mal. Por favor, intenta de nuevo o envíame un correo directamente.",
+    "orEmail": "O contáctame directamente en",
+    "responseTime": "Tiempo de respuesta típico: dentro de 24 horas",
+    "locationLabel": "Ubicación",
+    "availabilityLabel": "Disponibilidad",
+    "availabilityValue": "Abierto a oportunidades",
+    "availability": {
+      "note": "Generalmente respondo dentro de 24 horas.",
+      "status": "Disponible para oportunidades"
+    },
+    "form": {
+      "email": "Correo electrónico",
+      "emailPlaceholder": "tu@email.com",
+      "heading": "Conectemos",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto...",
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "sending": "Enviando...",
+      "subject": "Asunto",
+      "subjectPlaceholder": "¿De qué se trata?",
+      "submit": "Enviar mensaje"
+    },
+    "subheading": "¿Tienes una pregunta u oportunidad? Me encantaría saber de ti.",
+    "toast": {
+      "error": "Algo salió mal. Por favor, intenta de nuevo.",
+      "success": "¡Mensaje enviado exitosamente!"
+    }
+  },
+  "cta": {
+    "availability": "Abierto a nuevos proyectos",
+    "badge": "Ingeniero de QA",
+    "button": "Iniciar una conversación",
+    "description": "¿Listo para elevar la calidad de tu software? Trabajemos juntos.",
+    "githubLabel": "GitHub",
+    "linkedinLabel": "LinkedIn",
+    "title": "Construyamos algo",
+    "titleAccent": "Excelente juntos"
+  },
+  "services": {
+    "eyebrow": "Lo que ofrezco",
+    "subtitle": "Experiencia integral en aseguramiento de calidad y pruebas para garantizar que tu software se lance sin problemas.",
+    "title": "Servicios"
+  },
+  "testimonials": {
+    "eyebrow": "Comentarios de clientes",
+    "subtitle": "Confiado por equipos para entregar pruebas exhaustivas y aseguramiento de calidad confiable.",
+    "title": "Lo que otros dicen"
+  }
+}

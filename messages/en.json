@@ -1,1 +1,185 @@
-{}
+{
+  "brand": {
+    "name": "Rao Muhammad Ali",
+    "shortName": "RMA",
+    "title": "SQA Engineer",
+    "tagline": "Crafting quality into every line of code."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "hire": "Hire Me",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "footer": {
+    "tagline": "Dedicated SQA Engineer ensuring software excellence through rigorous testing and quality assurance practices.",
+    "navigation": "Navigation",
+    "getInTouch": "Get In Touch",
+    "openTo": "Open to freelance and full-time opportunities.",
+    "emailLabel": "Send email",
+    "contactCta": "Start a Conversation",
+    "backToTop": "Back to top",
+    "copyright": "© {year} {name}. All rights reserved.",
+    "role": "SQA Engineer"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Rao Muhammad Ali",
+    "title": "SQA Engineer",
+    "subtitle": "Ensuring software excellence through rigorous testing, automation, and quality assurance.",
+    "cta": {
+      "primary": "View My Work",
+      "secondary": "Get in Touch"
+    },
+    "ctaSecondary": "Download Resume",
+    "scrollHint": "Scroll to explore",
+    "badge": "Available for opportunities",
+    "statsTests": "Test Cases Written",
+    "statsBugs": "Bugs Reported",
+    "statsProjects": "Projects Delivered",
+    "statsYears": "Years Experience",
+    "chip1": "SQA Engineer",
+    "chip2": "Quality-Focused",
+    "description": "I deliver comprehensive testing solutions and quality assurance strategies to ensure your software performs flawlessly.",
+    "imageAlt": "Rao Muhammad Ali",
+    "role": "SQA Engineer",
+    "scroll": "Scroll to explore"
+  },
+  "about": {
+    "eyebrow": "About Me",
+    "heading": "Passionate about quality, driven by precision.",
+    "bio1": "I'm Rao Muhammad Ali, an SQA Engineer with a strong foundation in manual and automated testing. I specialize in identifying defects early, building robust test frameworks, and ensuring that software meets the highest quality standards before it reaches end users.",
+    "bio2": "My approach combines analytical thinking with a deep understanding of the software development lifecycle. I work closely with development teams to integrate quality assurance at every stage, from requirements review to post-release monitoring.",
+    "skillsHeading": "Core Competencies",
+    "downloadResume": "Download Resume",
+    "connectLinkedIn": "Connect on LinkedIn",
+    "bio3": "I'm passionate about ensuring software quality through meticulous testing and continuous improvement.",
+    "bioHeading": "About Me",
+    "getInTouch": "Get in Touch",
+    "imageAlt": "Rao Muhammad Ali portrait",
+    "quickFactsHeading": "Quick Facts",
+    "skillsEyebrow": "Core Competencies",
+    "skillsSubheading": "Expertise in quality assurance and testing methodologies.",
+    "statBugs": "Bugs Caught",
+    "statYears": "Years Experience"
+  },
+  "skills": {
+    "eyebrow": "Skills & Tools",
+    "heading": "My Technical Arsenal",
+    "subtitle": "A curated set of tools and technologies I use to deliver quality software.",
+    "testing": "Testing",
+    "automation": "Automation",
+    "tools": "Tools",
+    "methodologies": "Methodologies",
+    "description": "Proficient in test automation, manual testing, CI/CD integration, and quality strategy.",
+    "title": "Technical Skills"
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "heading": {
+      "accent": "Portfolio",
+      "part1": "My"
+    },
+    "subtitle": "A selection of projects where I applied rigorous QA practices to deliver reliable software.",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "allProjects": "All Projects",
+    "featured": "Featured",
+    "clearFilters": "Clear Filters",
+    "emptyDesc": "No projects match your filters. Try adjusting your selection.",
+    "emptyTitle": "No projects found",
+    "githubLabel": "View on GitHub",
+    "liveDemo": "Live Demo",
+    "liveLabel": "Live",
+    "resultCount": "projects",
+    "searchPlaceholder": "Search projects...",
+    "subheading": "Explore my QA automation, testing frameworks, and quality assurance solutions.",
+    "title": "Featured Work",
+    "viewAll": "View All"
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "heading": "My Professional Journey",
+    "subtitle": "A timeline of roles where I built expertise in software quality assurance.",
+    "present": "Present",
+    "responsibilities": "Key Responsibilities",
+    "education": "Education",
+    "certifications": "Certifications",
+    "badge": "Experience",
+    "certificationsSubtitle": "Industry-recognized credentials and continuous learning.",
+    "educationSubtitle": "Academic foundation and specialized training.",
+    "title": "My Journey",
+    "titleAccent": "In QA",
+    "workHistory": "Professional Experience",
+    "workHistorySubtitle": "Proven track record in quality assurance and testing."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "heading": "Let's Work Together",
+    "subtitle": "Have a project in mind or looking for a dedicated QA engineer? I'd love to hear from you.",
+    "nameLabel": "Your Name",
+    "namePlaceholder": "John Doe",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "john@example.com",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Project inquiry",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell me about your project or opportunity...",
+    "sendButton": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message Sent!",
+    "successMessage": "Thank you for reaching out. I'll get back to you within 24 hours.",
+    "errorMessage": "Something went wrong. Please try again or email me directly.",
+    "orEmail": "Or reach me directly at",
+    "responseTime": "Typical response time: within 24 hours",
+    "locationLabel": "Location",
+    "availabilityLabel": "Availability",
+    "availabilityValue": "Open to opportunities",
+    "availability": {
+      "note": "I typically respond within 24 hours.",
+      "status": "Available for opportunities"
+    },
+    "form": {
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "heading": "Let's Connect",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "sending": "Sending...",
+      "subject": "Subject",
+      "subjectPlaceholder": "What's this about?",
+      "submit": "Send Message"
+    },
+    "subheading": "Have a question or opportunity? I'd love to hear from you.",
+    "toast": {
+      "error": "Something went wrong. Please try again.",
+      "success": "Message sent successfully!"
+    }
+  },
+  "cta": {
+    "availability": "Open to new projects",
+    "badge": "SQA Engineer",
+    "button": "Start a Conversation",
+    "description": "Ready to elevate your software quality? Let's work together.",
+    "githubLabel": "GitHub",
+    "linkedinLabel": "LinkedIn",
+    "title": "Let's Build Something",
+    "titleAccent": "Great Together"
+  },
+  "services": {
+    "eyebrow": "What I Offer",
+    "subtitle": "End-to-end quality assurance and testing expertise to ensure your software ships flawlessly.",
+    "title": "Services"
+  },
+  "testimonials": {
+    "eyebrow": "Client Feedback",
+    "subtitle": "Trusted by teams to deliver thorough testing and reliable quality assurance.",
+    "title": "What Others Say"
+  }
+}
